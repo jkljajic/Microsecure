@@ -5,7 +5,7 @@ using Microsoft.Data.Entity;
 using Microsoft.Data.Entity.Metadata;
 using Microsoft.Framework.OptionsModel;
 
-namespace WebApplication2.Models
+namespace Micro.Secure.Models
 {
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser

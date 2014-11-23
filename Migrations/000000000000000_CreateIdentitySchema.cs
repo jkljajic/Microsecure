@@ -4,9 +4,9 @@ using Microsoft.Data.Entity.Metadata;
 using Microsoft.Data.Entity.Migrations;
 using Microsoft.Data.Entity.Migrations.Builders;
 using Microsoft.Data.Entity.Migrations.Infrastructure;
-using WebApplication2.Models;
+using Micro.Secure.Models;
 
-namespace WebApplication2.Migrations
+namespace Micro.Secure.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
@@ -179,7 +179,7 @@ namespace WebApplication2.Migrations
                     b.ForRelational().Table("AspNetUserRoles");
                 });
 
-                builder.Entity("WebApplication2.Models.ApplicationUser", b =>
+                builder.Entity("Micro.Secure.Models.ApplicationUser", b =>
                 {
                     b.Property<int>("AccessFailedCount");
                     b.Property<string>("Email");
@@ -205,12 +205,12 @@ namespace WebApplication2.Migrations
 
                 builder.Entity("Microsoft.AspNet.Identity.IdentityUserClaim`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", b =>
                 {
-                    b.ForeignKey("WebApplication2.Models.ApplicationUser", "UserId");
+                    b.ForeignKey("Micro.Secure.Models.ApplicationUser", "UserId");
                 });
 
                 builder.Entity("Microsoft.AspNet.Identity.IdentityUserLogin`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", b =>
                 {
-                    b.ForeignKey("WebApplication2.Models.ApplicationUser", "UserId");
+                    b.ForeignKey("Micro.Secure.Models.ApplicationUser", "UserId");
                 });
 
                 return builder.Model;

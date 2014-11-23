@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNet.Mvc;
 
-namespace MyHomePage.Controllers
+namespace Micro.Secure.Controllers
 {
     public class HomeController : Controller
     {

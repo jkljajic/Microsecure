@@ -5,9 +5,9 @@ using System.Security.Principal;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Mvc;
-using WebApplication2.Models;
+using Micro.Secure.Models;
 
-namespace WebApplication2.Controllers
+namespace Micro.Secure.Controllers
 {
     [Authorize]
     public class AccountController : Controller

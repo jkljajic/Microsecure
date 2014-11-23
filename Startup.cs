@@ -12,9 +12,9 @@ using Microsoft.Framework.ConfigurationModel;
 using Microsoft.Framework.DependencyInjection;
 using Microsoft.Framework.Logging;
 using Microsoft.Framework.Logging.Console;
-using WebApplication2.Models;
+using Micro.Secure.Models;
 
-namespace WebApplication2
+namespace Micro.Secure
 {
     public class Startup
     {

@@ -1,5 +1,5 @@
 {
-    "name": "WebApplication2",
+    "name": "Micro.Secure",
     "private": true,
     "dependencies": {
         "bootstrap": "~3.0.0",
